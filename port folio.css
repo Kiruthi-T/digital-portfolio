@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(blue,purple,red, yellow);
+}
+header{
+    background-color: rgb(43, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    
+}
+.my-pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 75%;
+    object-fit: cover;
+    position: absolute;
+    /* top: 55px; */
+    left: 85px; 
+}
+nav{
+    background-color: rgb(39, 26, 26);
+    color: white;
+    text-align: center;
+}
+nav ul{
+   list-style-type: none;
+   padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+}
+
+.section{
+    background-color: beige;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px silver;
+}
